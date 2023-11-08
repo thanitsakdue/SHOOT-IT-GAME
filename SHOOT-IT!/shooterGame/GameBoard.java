@@ -252,12 +252,12 @@ public class GameBoard extends JPanel {
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		// Draw backgroung image.
-		if(score >= 500){
-			g.drawImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource(fileBackground2)), 0, 0, null);
+		if(score >= 1200){
+			g.drawImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource(fileBackground3)), 0, 0, null);
 		}
-		else if(score>=1200)
+		else if(score>=500)
 		{
-			g.drawImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource(fileBackground3)), 0, 0, null);	
+			g.drawImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource(fileBackground2)), 0, 0, null);	
 		}
 		else{
 			g.drawImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource(fileBackground)), 0, 0, null);	
