@@ -1,0 +1,8 @@
+Game Name : Shoot It!
+Author : Thanitsak Sakulrutsameehirun
+Student No: 6504062630138
+This is java shooting game that created for
+sent project Object Oriented programming section 3
+How to Play: M1(Left-Click) -Shoot 
+Enemy: Have 2 Type 1) Bee -100 score per unit
+		   2) Bat -200 score per unit
