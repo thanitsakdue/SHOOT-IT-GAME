@@ -14,10 +14,17 @@ public class EnemyGenerator {
     // Define a minimum distance for enemy spawn from the player's cannon
 
     public EnemyGenerator() throws IOException {
-        rand = new Random(); // Use the default random seed for variety
-        greenFrames = SpriteSheetLoader.createSprites(filebat, 2, 5);
+        rand = new Random(); // Use the default random seed for variety  image roll
+        greenFrames = SpriteSheetLoader.createSprites(filebat, 2, 5); 
         blueFrames = SpriteSheetLoader.createSprites(filebee, 3, 6);
     }
+
+
+
+
+
+
+    
 
     public Opponents generateNewEnemy() {
     // Randomly generates new creatures.
@@ -32,9 +39,9 @@ public class EnemyGenerator {
 
     switch (creatureType) {
         case 0:
-            return new Bee(greenFrames, 5, spawnX, spawnY);
+            return new Bat(greenFrames, 5, spawnX, spawnY);
         case 1:
-            return new Bat(blueFrames, 12, spawnX, spawnY);
+            return new Bee(blueFrames, 12, spawnX, spawnY);
     }
 
     return null;

@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class Bee extends Opponents {
-	private final int scorePoint = 200;
+	private final int scorePoint = 300;
 	
 	protected int strength, shotCount;
 	private int limit;// will be used as second living limit.
