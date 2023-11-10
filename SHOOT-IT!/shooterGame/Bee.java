@@ -59,3 +59,4 @@ public class Bee extends Opponents {
 		return this.scorePoint;
 	}
 }
+//beejah
